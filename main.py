@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     #Transcribing using Openai API
     print("Transcribing the videos")
-    transcribe_videos(df,title_transcriptions, 0)  # Transcribe the first two videos in the dataframe
+    transcribe_videos(df,title_transcriptions, 0) 
     clear_audio_directory()
     print("Cleared audio files.")
     print(f"Succesfully transcribed and saved to {title_transcriptions}.txt")
